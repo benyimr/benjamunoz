@@ -203,35 +203,37 @@
   }
 
   .visible-links {
-    display: table;
+    display: flex;
+    align-items: center;
 
     li {
-      display: table-cell;
+      display: inline-flex;
+      align-items: center;
       vertical-align: middle;
+    }
 
-      &:first-child {
-        font-weight: bold;
-        text-wrap: wrap;
+    /* Name + theme toggle on the left */
+    .masthead__brand {
+      font-weight: bold;
+      text-wrap: wrap;
+      margin-right: auto;  /* pushes the other links to the right */
 
-        a {
-          margin-left: 0;
-        }
-      }
-
-      &:last-child {
-        a {
-          margin-right: 0;
-        }
+      a:first-child {
+        margin-left: 0;
       }
     }
 
+    /* Last link on the right with no extra right margin */
+    li:last-child a {
+      margin-right: 0;
+    }
+
+    /* Theme toggle button (the id is on the <a>) */
     #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-      }
+      width: 25px;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
     }
 
     a {

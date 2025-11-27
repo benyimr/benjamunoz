@@ -2,6 +2,7 @@
 permalink: /
 title: "Welcome to my site!"
 author_profile: true
+classes: "about-invert"
 redirect_from: 
   - /about/
   - /about.html

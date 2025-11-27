@@ -1,17 +1,111 @@
 /* —— Custom styles for Benjamin's site —— */
 
-/* Ejemplo: hacer el avatar rectangular y más grande */
+/* Make avatar rectangular and larger */
 .author__avatar img {
-  border-radius: 0;     /* quita el círculo */
+  border-radius: 0;     /* remove circular crop */
   max-width: 220px;
   height: auto;
 }
 
-/* Right-align the main nav items */
-.masthead__menu {
-  margin-left: auto;     /* Push nav to the right */
+/* ----- New masthead layout: left (name + theme) / right (nav) ----- */
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* center the bar */
 }
 
-.masthead__menu ul {
-  justify-content: flex-end;  /* Extra safety for flex layouts */
+.masthead__bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   /* left vs right */
+}
+
+/* Left: site title + theme toggle */
+.masthead__left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;   /* space between name and icon */
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* Theme toggle icon */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+/* Right: main nav items */
+.masthead__right .masthead__nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;      /* spacing between Research / Teaching / CV */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: keep link style consistent with theme */
+.masthead__nav a {
+  text-decoration: none;
+}
+
+/* Slightly adjust on very small screens */
+@media (max-width: 600px) {
+  .masthead__bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .masthead__right .masthead__nav {
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+}
+
+/* ----------------------------------------------------
+   Invert author profile layout on homepage (About)
+   Text on the left, author box on the right
+   Only for pages that define: classes: "about-invert"
+---------------------------------------------------- */
+
+/* Make the inner wrap a flex container on the About page */
+.page.about-invert .page__inner-wrap {
+  display: flex;
+  flex-direction: row;        /* content left, author box right */
+  align-items: flex-start;
+  gap: 2rem;                  /* space between text and author box */
+}
+
+/* Main content column */
+.page.about-invert .page__content {
+  flex: 1 1 auto;
+}
+
+/* Author box column on the right */
+.page.about-invert .page__meta {
+  width: 280px;               /* adjust to taste */
+  flex-shrink: 0;
+  margin-top: 0;
+}
+
+/* On small screens, fall back to vertical stacking */
+@media (max-width: 768px) {
+  .page.about-invert .page__inner-wrap {
+    flex-direction: column;
+  }
+
+  .page.about-invert .page__meta {
+    width: 100%;
+  }
 }
