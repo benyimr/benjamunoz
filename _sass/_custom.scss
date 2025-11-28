@@ -103,3 +103,141 @@
 .teaching-indent p {
   text-align: justify;
 }
+
+/* ----------------------------------------------------
+   Research — indentation + text justification
+---------------------------------------------------- */
+
+.research-indent {
+  margin-left: 1.25rem;
+  margin-bottom: 0.50rem;
+}
+
+.research-indent p {
+  text-align: justify;
+}
+
+/* ----------------------------------------------------
+   SPECIAL ICON for JMP ONLY
+   Symbol: U+2726 (✦), static (no rotation)
+---------------------------------------------------- */
+
+.research-jmp .research-jmp-title::before {
+  content: "✦ ";
+  font-size: 1.15rem;
+  margin-right: 0.35rem;
+  color: var(--global-text-color);
+}
+
+/* ----------------------------------------------------
+   Shared: toggle mechanics for [Abstract]
+   (used by JMP, normal papers, and working papers)
+---------------------------------------------------- */
+
+/* Hidden checkbox (control for the abstract) */
+.abstract-toggle-checkbox {
+  display: none;
+}
+
+/* [Abstract] label styled like a link */
+.abstract-toggle-label {
+  cursor: pointer;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  color: var(--global-link-color);
+}
+
+.abstract-toggle-label:hover {
+  text-decoration: none;
+  color: var(--global-link-color-hover);
+}
+
+/* Links: [Paper], [Appendix], [Replication], [Slides], etc. */
+.research-link {
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.research-link:hover {
+  text-decoration: underline;
+}
+
+/* ----------------------------------------------------
+   JMP block: title + buttons + toggleable abstract
+---------------------------------------------------- */
+
+.research-jmp-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;   /* responsive spacing */
+  flex-wrap: wrap;
+}
+
+.research-jmp-title {
+  font-size: 1rem;
+}
+
+/* Abstract box for JMP */
+.research-jmp-abstract {
+  margin-top: 0.8rem;
+}
+
+/* Hidden by default */
+.abstract-toggle-checkbox ~ .research-jmp-abstract {
+  display: none;
+}
+
+/* Visible when checkbox is checked */
+.abstract-toggle-checkbox:checked ~ .research-jmp-abstract {
+  display: block;
+}
+
+/* ----------------------------------------------------
+   Normal research paper blocks (non-JMP)
+   Static title + [Abstract] + [Paper] + other links
+---------------------------------------------------- */
+
+.research-paper-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;      /* space between title and buttons */
+  flex-wrap: wrap;   /* wrap on small screens */
+}
+
+.research-paper-title {
+  font-size: 1rem;
+}
+
+/* Abstract box for normal/working papers */
+.research-paper-abstract {
+  display: none;
+  margin-top: 0.8rem;
+  text-align: justify;
+}
+
+/* Show abstract when the associated checkbox is checked */
+.abstract-toggle-checkbox:checked ~ .research-paper-abstract {
+  display: block;
+}
+
+/* ----------------------------------------------------
+   WORKING PAPERS
+   Same structure as normal papers, but with a rotating
+   arrow (➤) before the title.
+---------------------------------------------------- */
+
+/* Icon in front of the title */
+.research-working .research-paper-title::before {
+  content: "➤ ";
+  font-size: 1rem;
+  margin-right: 0.35rem;
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.25s ease;
+}
+
+/* Rotate arrow when the Abstract is visible */
+.research-working .research-paper-header:has(.abstract-toggle-checkbox:checked)
+  .research-paper-title::before {
+  transform: rotate(90deg);
+}
