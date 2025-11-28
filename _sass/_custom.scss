@@ -241,3 +241,28 @@
   .research-paper-title::before {
   transform: rotate(90deg);
 }
+
+/* --------------------------------------------
+   Option 1: Citation block (texto) + button block
+--------------------------------------------- */
+
+/* Bloque para la cita completa */
+.research-paper-citation {
+  margin-bottom: 0.35rem;      /* pequeño espacio antes de los botones */
+  line-height: 1.45;
+  text-align: justify;
+}
+
+/* Bloque para los botones */
+.research-paper-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;             /* que no desborde en móviles */
+  margin-bottom: 0.5rem;
+}
+
+/* Opcional: que [Abstract] + [Article] + [Slides] se vean bien alineados */
+.research-paper-buttons .research-link,
+.research-paper-buttons .abstract-toggle-label {
+  font-size: 0.95rem;
+}
