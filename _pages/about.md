@@ -2,13 +2,13 @@
 permalink: /
 title: "Welcome to my site!"
 author_profile: true
-classes: "about-invert"
+classes: "about-page"
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a Ph.D. candidate in the [Department of Political Science](https://polisci.mit.edu/) at the Massachusetts Institute of Technology and a Graduate Research Fellow at the [MIT Governance Lab](https://mitgovlab.org/).
+I am a Ph.D. candidate in the [Department of Political Science](https://polisci.mit.edu/) at the Massachusetts Institute of Technology and a Graduate Research Fellow at the [MIT Governance Lab](https://mitgovlab.org/). Esto es un experimento, es simplemente texto random para probar si logramos justificar el texto en el html del about de mi website. Si no funciona, buscaré otras opciones
 
 
 

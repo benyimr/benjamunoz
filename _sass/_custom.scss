@@ -7,7 +7,7 @@
   height: auto;
 }
 
-/* ----- New masthead layout: left (name + theme) / right (nav) ----- */
+/* ----- Masthead: left (name + theme) / right (nav) ----- */
 
 .masthead__inner-wrap {
   display: flex;
@@ -54,7 +54,6 @@
   padding: 0;
 }
 
-/* Optional: keep link style consistent with theme */
 .masthead__nav a {
   text-decoration: none;
 }
@@ -73,39 +72,15 @@
   }
 }
 
-/* ----------------------------------------------------
-   Invert author profile layout on homepage (About)
-   Text on the left, author box on the right
-   Only for pages that define: classes: "about-invert"
----------------------------------------------------- */
-
-/* Make the inner wrap a flex container on the About page */
-.page.about-invert .page__inner-wrap {
-  display: flex;
-  flex-direction: row;        /* content left, author box right */
-  align-items: flex-start;
-  gap: 2rem;                  /* space between text and author box */
+/* Remove automatic underline from h2 (## headers) */
+.page__content h2 {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
 }
 
-/* Main content column */
-.page.about-invert .page__content {
-  flex: 1 1 auto;
-}
-
-/* Author box column on the right */
-.page.about-invert .page__meta {
-  width: 280px;               /* adjust to taste */
-  flex-shrink: 0;
-  margin-top: 0;
-}
-
-/* On small screens, fall back to vertical stacking */
-@media (max-width: 768px) {
-  .page.about-invert .page__inner-wrap {
-    flex-direction: column;
-  }
-
-  .page.about-invert .page__meta {
-    width: 100%;
-  }
+/* Keep underline only for top-level section headers (MIT, Other Institutions) */
+.page__content h1 {
+  border-bottom: 1px solid var(--global-border-color);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
 }
