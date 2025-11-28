@@ -1,10 +1,13 @@
 /* —— Custom styles for Benjamin's site —— */
 
 /* Make avatar rectangular and larger */
+/* Expand the image itself */
 .author__avatar img {
-  border-radius: 0;     /* remove circular crop */
-  max-width: 220px;
-  height: auto;
+  border-radius: 0;
+  width: 100%;       /* must match container width */
+  max-width: 380px;
+  height: 430px !important;      /* adjust as needed */
+  object-fit: cover;
 }
 
 /* ----- Masthead: left (name + theme) / right (nav) ----- */

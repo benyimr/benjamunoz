@@ -14,8 +14,11 @@
   {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 
-{% if site.url %}
-  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
+{%- comment -%}
+  Override tab title for homepage: only show site.title
+{%- endcomment -%}
+{% if page.url == "/" or page.permalink == "/" %}
+  {% assign seo_title = "Benjamín Muñoz — Website" %}
 {% endif %}
 
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
