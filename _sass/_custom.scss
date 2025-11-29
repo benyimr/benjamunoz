@@ -268,3 +268,106 @@
 .research-paper-buttons .abstract-toggle-label {
   font-size: 0.95rem;
 }
+
+/* ----------------------------------------------------
+   Widen main content area on large screens
+   (affects About, Research, Teaching, CV, etc.)
+---------------------------------------------------- */
+
+@media (min-width: 1280px) {
+  #main {
+    max-width: 1440px;  /* New size (modify if necessary) */
+  }
+}
+
+/* --------------------------------------------
+   Coauthor links — no underline
+--------------------------------------------- */
+.coauthor-link {
+  text-decoration: none !important;
+  border-bottom: none !important;   /* Remove underlined */
+}
+
+.coauthor-link {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  color: #555;   /* New Color */
+}
+
+.coauthor-link:hover {
+  color: var(--global-link-color-hover); /* Keep hover */
+}
+
+/* ----------------------------------------------------
+   Research Buttons — Blue Styling (Abstract, Article, Code, etc.)
+---------------------------------------------------- */
+
+/* Color for all buttons: [Abstract], [Article], [Code], etc. */
+.research-link,
+.abstract-toggle-label {
+  color: #4F8CC9 !important;          /* main blue */
+  text-decoration: underline;         /* consistent with your style */
+  cursor: pointer;
+}
+
+/* Hover state */
+.research-link:hover,
+.abstract-toggle-label:hover {
+  color: #2F6EA6 !important;          /* darker blue on hover */
+  text-decoration: none;
+}
+
+/* ---------------------------------------------
+   Home layout (about page) — 4 columnas
+   [vacía] [texto] [foto] [vacía]
+---------------------------------------------- */
+
+/* El body recibe automáticamente la clase layout--home
+   porque el layout se llama "home" */
+.layout--home #main {
+  max-width: 1200px;   /* más ancho que el default */
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+/* Grilla principal */
+.layout--home .home-grid {
+  display: grid;
+  grid-template-columns: 1fr 2.2fr 1.3fr 1fr; /* vacía, texto, foto, vacía */
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Las columnas vacías no necesitan estilos extra,
+   pero las definimos por claridad */
+.layout--home .home-grid__empty {
+  /* intentionally blank */
+}
+
+/* Quitar el max-width "estrecho" de la página solo en la home */
+.layout--home .home-grid__text .page__inner-wrap {
+  max-width: none;
+  margin: 0;
+}
+
+/* Ajuste suave del bloque de perfil */
+.layout--home .home-grid__photo {
+  /* Deja que el author-profile se adapte al espacio */
+}
+
+/* Responsive: en pantallas pequeñas apilamos todo */
+@media (max-width: 900px) {
+  .layout--home .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .layout--home .home-grid__empty {
+    display: none;
+  }
+
+  .layout--home .home-grid__text,
+  .layout--home .home-grid__photo {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}

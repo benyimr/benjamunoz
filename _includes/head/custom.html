@@ -14,4 +14,17 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Automatically open EXTERNAL links in a new tab -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll(
+    'a[href^="http"]:not([href*="benyimr.github.io"])'
+  );
+  links.forEach(function(link) {
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
+  });
+});
+</script>
+
 <!-- end custom head snippets -->

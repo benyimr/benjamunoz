@@ -26,9 +26,9 @@ author:
   avatar           : "profile_01.png"
   name             : "Benjamín Muñoz"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate in Political Science"
-  location         : "Cambridge, MA"
-  employer         : "MIT"
+  bio              : "PhD Candidate in Political Science at MIT"
+  location         :
+  employer         : 
   uri              : # URL
   email            : "benja_mr@mit.edu" 
 
