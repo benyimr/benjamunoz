@@ -4,16 +4,23 @@
 
 {% include seo.html %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }...ication/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+{%- comment -%}
+Feed Atom: si `site.atom_feed.path` está definido, úsalo; si no, usa /feed.xml
+{%- endcomment -%}
+<link
+  href="{% if site.atom_feed.path %}{{ site.atom_feed.path | absolute_url }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"
+  type="application/atom+xml"
+  rel="alternate"
+  title="{{ site.title }} Feed">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.documentElement.className =
+    document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
-<!-- Academicons for Google Scholar / ORCID icons -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+{% include head/custom.html %}
