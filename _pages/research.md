@@ -69,17 +69,17 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
     <strong class="research-paper-title">Networked Inequality: The role of Changes in Network Heterogeneity and Network Size in Attitudes towards Inequality.</strong>
     (2026). <i>Social Networks</i>, 84 (January): 27-45  
     (with 
-    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link">Alejandro Plaza</a>,
-    <a href="https://scholar.google.com/citations?user=0QlfZOIAAAAJ&hl=es//" class="coauthor-link">Guillermo Beck</a>,
-    <a href="https://www.bigsss-bremen.de/people/phd-fellows/julio-iturra-sanhueza//" class="coauthor-link">Julio Iturra</a>, and
-    <a href="https://scholar.google.com/citations?user=sZ7YJIsAAAAJ&hl=es" class="coauthor-link">Gabriel Otero</a>).
+    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Alejandro Plaza</a>,
+    <a href="https://scholar.google.com/citations?user=0QlfZOIAAAAJ&hl=es//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Guillermo Beck</a>,
+    <a href="https://www.bigsss-bremen.de/people/phd-fellows/julio-iturra-sanhueza//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Julio Iturra</a>, and
+    <a href="https://scholar.google.com/citations?user=sZ7YJIsAAAAJ&hl=es" class="coauthor-link" target="_blank" rel="noopener noreferrer">Gabriel Otero</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-paper-2" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://doi.org/10.1016/j.socnet.2025.07.008" class="research-link">[Article]</a>
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
+    <a href="https://doi.org/10.1016/j.socnet.2025.07.008" class="research-link" target="_blank" rel="noopener noreferrer">[Article]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -103,16 +103,16 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-citation">
     <strong class="research-paper-title">Electoral Turnout in Chile: An Age-Period-Cohort Approach.</strong> (2019). <i>Revista de Ciencia Política</i>, 39(1): 75–98  
     (with 
-    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link">Matías Bargsted</a>
+    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Matías Bargsted</a>
     and
-    <a href="https://sites.google.com/site/nsommag/home" class="coauthor-link">Nicolás Somma</a>).
+    <a href="https://sites.google.com/site/nsommag/home" class="coauthor-link" target="_blank" rel="noopener noreferrer">Nicolás Somma</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-paper-1" class="abstract-toggle-label">[Abstract]</label>
-<a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Article]</a>
-    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/15NMTI" class="research-link">[Code]</a>
+    <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link" target="_blank" rel="noopener noreferrer">[Article]</a>
+    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/15NMTI" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -143,7 +143,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
     <strong class="research-paper-title">Do Policies Drive Politics? A Causal-Inference Review of the Policy Feedback Literature.</strong>
     <i>(Working Paper)</i>
     (with 
-    <a href="https://andreacampbell.mit.edu/" class="coauthor-link">Andrea L. Campbell</a>).
+    <a href="https://andreacampbell.mit.edu/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Andrea L. Campbell</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
@@ -174,9 +174,9 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
     <strong class="research-paper-title">When Do Acquaintance Networks Grow? Life Events, Civic Participation, and Social Dynamics.</strong>
     <i>(R&R, Social Networks)</i>
     (with 
-    <a href="https://alejandroplazareveco.github.io/" class="coauthor-link">Alejandro Plaza</a> 
+    <a href="https://alejandroplazareveco.github.io/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Alejandro Plaza</a> 
     and
-    <a href="https://www.researchgate.net/profile/Vicente-Espinoza-2" class="coauthor-link">Vicente Espinoza</a>).
+    <a href="https://www.researchgate.net/profile/Vicente-Espinoza-2" class="coauthor-link" target="_blank" rel="noopener noreferrer">Vicente Espinoza</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
@@ -207,8 +207,8 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
     <strong class="research-paper-title">The Longitudinal Unexpected Event During Survey Design.</strong>
     <i>(Working Paper)</i>
     (with 
-    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link">Matías Bargsted</a> and
-    <a href="https://www.sowi.hu-berlin.de/en/dynamics/people/doctoral-researchers2/sixth-cohort-2025-2028/andres-gonzales-ide" class="coauthor-link">Andrés González</a>).
+    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Matías Bargsted</a> and
+    <a href="https://www.sowi.hu-berlin.de/en/dynamics/people/doctoral-researchers2/sixth-cohort-2025-2028/andres-gonzales-ide" class="coauthor-link" target="_blank" rel="noopener noreferrer">Andrés González</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
@@ -339,7 +339,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
     <strong class="research-paper-title">Does Voting Create a Habit? Evidence from Chile’s Electoral Cycles (2012–2017).</strong>
     <i>(Working Paper)</i>
     (with 
-    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link">Matías Bargsted</a>).
+    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Matías Bargsted</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
@@ -379,17 +379,17 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-citation">
     <strong class="research-paper-title">Multilevel Analysis for the Study of Egocentric Networks.</strong>
     (2019). In <i>Social Networks: Theory, Methods, and Applications in Latin America</i> (pp 183-202), Madrid: Centro de Investigaciones Sociológicas (with 
-    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link">Alejandro Plaza</a> and
-    <a href="https://github.com/rcantillan/" class="coauthor-link">Roberto Cantillán</a>).
+    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Alejandro Plaza</a> and
+    <a href="https://github.com/rcantillan/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Roberto Cantillán</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-chapter-3" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://www.cis.es/en/w/redes-sociales-teoria-metodos-y-aplicaciones-en-america-latina" class="research-link">[Book]</a>
+    <a href="https://www.cis.es/en/w/redes-sociales-teoria-metodos-y-aplicaciones-en-america-latina" class="research-link" target="_blank" rel="noopener noreferrer">[Book]</a>
     <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
       <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>-->
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
 
@@ -418,16 +418,16 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
 Competition in Chile.</strong>
     (2019). In <i>Anatomy of the Chilean Right: State, Market, and Value Formation in
 Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with 
-    <a href="https://www.researchgate.net/profile/Julieta-Suarez-Cao/" class="coauthor-link">Julieta Suárez-Cao</a>).
+    <a href="https://www.researchgate.net/profile/Julieta-Suarez-Cao/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Julieta Suárez-Cao</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-chapter-2" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://www.fondodeculturaeconomica.com/Ficha/9789562892025/F" class="research-link">[Book]</a>
+    <a href="https://www.fondodeculturaeconomica.com/Ficha/9789562892025/F" class="research-link" target="_blank" rel="noopener noreferrer">[Book]</a>
     <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
       <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a> -->
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -451,16 +451,16 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
   <div class="research-paper-citation">
     <strong class="research-paper-title">The Localization of Politics in Municipal Electoral Competition in Chile.</strong>
     (2017). In <i>The Fractured Backbone: Revisiting Political Intermediaries in Chile</i> (pp 57-86), Santiago: RIL Editores (with 
-    <a href="https://www.researchgate.net/profile/Julieta-Suarez-Cao/" class="coauthor-link">Julieta Suárez-Cao</a>).
+    <a href="https://www.researchgate.net/profile/Julieta-Suarez-Cao/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Julieta Suárez-Cao</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-chapter-1" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Book]</a>
+    <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link" target="_blank" rel="noopener noreferrer">[Book]</a>
     <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
       <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>-->
-    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBVZBW" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBVZBW" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -493,18 +493,18 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
     <strong class="research-paper-title">Radiografía del Cambio Social. Resultados ELSOC 2016-2018.</strong>
     (2019). <i>Nota COES de Política Pública</i>  
     (with 
-    <a href="https://scholar.google.com/citations?user=9wgYRZoAAAAJ&hl=en" class="coauthor-link">Roberto González</a>,
-    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link">Matías Bargsted</a>,
-    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link">Alejandro Plaza</a>,
-    <a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ&hl=es/" class="coauthor-link">Daniel Miranda</a>, and
-    <a href="https://scholar.google.com/citations?user=mcScWqUAAAAJ&hl=en" class="coauthor-link">Héctor Carvacho</a>).
+    <a href="https://scholar.google.com/citations?user=9wgYRZoAAAAJ&hl=en" class="coauthor-link" target="_blank" rel="noopener noreferrer">Roberto González</a>,
+    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Matías Bargsted</a>,
+    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Alejandro Plaza</a>,
+    <a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ&hl=es/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Daniel Miranda</a>, and
+    <a href="https://scholar.google.com/citations?user=mcScWqUAAAAJ&hl=en" class="coauthor-link" target="_blank" rel="noopener noreferrer">Héctor Carvacho</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-policy-3" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://radiografia-cambio-social-2016-2022.netlify.app/" class="research-link">[RCS]</a>
-    <a href="https://github.com/benyimr/Radiografia_Cambio_Social" class="research-link">[Code]</a>
+    <a href="https://radiografia-cambio-social-2016-2022.netlify.app/" class="research-link" target="_blank" rel="noopener noreferrer">[RCS]</a>
+    <a href="https://github.com/benyimr/Radiografia_Cambio_Social" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
 
   </div>
 
@@ -530,17 +530,17 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
     <strong class="research-paper-title">Resultados Primera Ola del Estudio Longitudinal Social de Chile: Cohesión Social y Migración.</strong>
     (2019). <i>Nota COES de Política Pública</i> N° 1  
     (with 
-    <a href="https://scholar.google.com/citations?user=9wgYRZoAAAAJ&hl=en" class="coauthor-link">Roberto González</a>,
-    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link">Matías Bargsted</a>,
-    <a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ&hl=es/" class="coauthor-link">Daniel Miranda</a>,
-    <a href="https://scholar.google.com/citations?user=mcScWqUAAAAJ&hl=en" class="coauthor-link">Héctor Carvacho</a>, and
-    <a href="https://cristiandonareveco.com/" class="coauthor-link">Cristián Doña</a>).
+    <a href="https://scholar.google.com/citations?user=9wgYRZoAAAAJ&hl=en" class="coauthor-link" target="_blank" rel="noopener noreferrer">Roberto González</a>,
+    <a href="https://sociologia.uc.cl/academicos-as/planta-academica/matias-bargsted-valdes/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Matías Bargsted</a>,
+    <a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ&hl=es/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Daniel Miranda</a>,
+    <a href="https://scholar.google.com/citations?user=mcScWqUAAAAJ&hl=en" class="coauthor-link" target="_blank" rel="noopener noreferrer">Héctor Carvacho</a>, and
+    <a href="https://cristiandonareveco.com/" class="coauthor-link" target="_blank" rel="noopener noreferrer">Cristián Doña</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-policy-2" class="abstract-toggle-label">[Abstract]</label>
-    <a href="{{ base_path }}/files/research/nota_COES_1.pdf" class="research-link">[Document]</a>
+    <a href="{{ base_path }}/files/research/nota_COES_1.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Document]</a>
 
   </div>
 
@@ -566,14 +566,14 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
     <strong class="research-paper-title">Opinión Ciudadana y Cambio Constitucional. Análisis desde la Opinión Pública.</strong>
     (2015). <i>Serie Más y Mejor Democracia</i>, Número 1  
     (for 
-    <a href="https://www.undp.org/es/chile//" class="coauthor-link">UNDP</a>).
+    <a href="https://www.undp.org/es/chile//" class="coauthor-link" target="_blank" rel="noopener noreferrer">UNDP</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-policy-1" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://www.undp.org/es/chile/publicaciones/opinion-ciudadana-y-cambio-constitucional-analisis-desde-la-opinion-publica" class="research-link">[Document]</a>
-    <a href="https://github.com/benyimr/Cambio_Constitucional" class="research-link">[Code]</a>
+    <a href="https://www.undp.org/es/chile/publicaciones/opinion-ciudadana-y-cambio-constitucional-analisis-desde-la-opinion-publica" class="research-link" target="_blank" rel="noopener noreferrer">[Document]</a>
+    <a href="https://github.com/benyimr/Cambio_Constitucional" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
