@@ -32,7 +32,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
     <a href="{{ base_path }}/files/syllabi/syl_quant4.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/benyimr/Quant_IV_Slides">[Recitation Slides]</a>
+    <a href="https://github.com/benyimr/Quant_IV_Slides" target="_blank" rel="noopener noreferrer">[Recitation Slides]</a>
   </div>
 
 </details>
@@ -53,9 +53,9 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
       <a href="{{ base_path }}/files/syllabi/syl_c08.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/benyimr/Common_Ground_Causal_Inference_Materials">[Recitation Slides]</a>
+    <a href="https://github.com/benyimr/Common_Ground_Causal_Inference_Materials" target="_blank" rel="noopener noreferrer">[Recitation Slides]</a>
     &nbsp;&nbsp;
-    <a href="https://drive.google.com/drive/folders/1uCnzdo5aS7pynd38dbDzZ5euFMSpdHY_?usp=drive_link">[Google Colabs]</a>
+    <a href="https://drive.google.com/drive/folders/1uCnzdo5aS7pynd38dbDzZ5euFMSpdHY_?usp=drive_link" target="_blank" rel="noopener noreferrer">[Google Colabs]</a>
   </div>
 
 </details>
@@ -76,7 +76,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> In this workshop, you will learn the fundamentals of writing clean and efficient code in R, along with practical references to deepen your understanding. The session is divided into two main parts. The first part focuses on writing clean code, covering best practices for code annotation, organization, and ensuring replicability. The second part delves into optimizing code performance, highlighting the benefits of vectorization and parallel processing in R to enhance speed and efficiency. By the end of the workshop, you’ll have the tools and knowledge to write code that is both readable and high-performing.</p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="https://github.com/benyimr/PML_Efficient_Coding_Good_Practices/tree/main">[Materials]</a>
+    <a href="https://github.com/benyimr/PML_Efficient_Coding_Good_Practices/tree/main" target="_blank" rel="noopener noreferrer">[Materials]</a>
   </div>
 
 </details>
@@ -93,12 +93,12 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.15rem 0;"><strong>Role:</strong> Teaching Fellow (6 credits, UG)</p>
   <p style="margin: 0.15rem 0;"><strong>Organizer:</strong> MIT Office of Experiential Learning</p>
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> 
-    <a href="https://elo.mit.edu/experiential-ethics/" target="_blank">Experiential Ethics</a> is a collaborative, discussion-based summer course where students gain theoretical and practical tools while reflecting critically on their personal, professional, and political roles. The class can be taken by itself or alongside popular experiential learning programs and internships, such as UROP,  MISTI, or PKG opportunities. In small-group weekly sessions, students engage in conversations about their own values as well as the moral, social, and political dimensions of their summer experiences. </p>
+    <a href="https://elo.mit.edu/experiential-ethics/" target="_blank" rel="noopener noreferrer">Experiential Ethics</a> is a collaborative, discussion-based summer course where students gain theoretical and practical tools while reflecting critically on their personal, professional, and political roles. The class can be taken by itself or alongside popular experiential learning programs and internships, such as UROP,  MISTI, or PKG opportunities. In small-group weekly sessions, students engage in conversations about their own values as well as the moral, social, and political dimensions of their summer experiences. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
     <a href="{{ base_path }}/files/syllabi/syl_ee2024.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
         &nbsp;&nbsp;
-    <a href="https://github.com/benyimr/Experiential_Ethics">[Slides]</a>
+    <a href="https://github.com/benyimr/Experiential_Ethics" target="_blank" rel="noopener noreferrer">[Slides]</a>
   </div>
 
 </details>
@@ -115,10 +115,10 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.15rem 0;"><strong>Role:</strong> Workshop Instructor (2 hours)</p>
   <p style="margin: 0.15rem 0;"><strong>Organizer:</strong> Pathways to Political Science Summer Research interns Program</p>
   <p style="margin: 0.35rem 0;"><strong>Description:</strong>
-  <a href="https://globaldiversitylab.mit.edu/summer-research-internship/" target="_blank">Pathways@GDL</a> is an internship program designed to broaden the pipeline into U.S. political science PhD programs by supporting students from diverse backgrounds as they explore research careers. This workshop provides an accessible introduction to quantitative causal inference, focusing on the potential outcomes framework and the core tools researchers use to identify causal effects.</p>
+  <a href="https://globaldiversitylab.mit.edu/summer-research-internship/" target="_blank" rel="noopener noreferrer">Pathways@GDL</a> is an internship program designed to broaden the pipeline into U.S. political science PhD programs by supporting students from diverse backgrounds as they explore research careers. This workshop provides an accessible introduction to quantitative causal inference, focusing on the potential outcomes framework and the core tools researchers use to identify causal effects.</p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="https://github.com/benyimr/Causal_Inference_Intro">[Slides]</a>
+    <a href="https://github.com/benyimr/Causal_Inference_Intro" target="_blank" rel="noopener noreferrer">[Slides]</a>
   </div>
 
 </details>
@@ -244,7 +244,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
     <a href="{{ base_path }}/files/syllabi/syl_elsoc.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/benyimr/Fixed_and_Random_Effects_Models">[Materials]</a>
+    <a href="https://github.com/benyimr/Fixed_and_Random_Effects_Models" target="_blank" rel="noopener noreferrer">[Materials]</a>
   </div>
 
 </details>
@@ -264,11 +264,11 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
     Short introductory workshops on the use of software and social network analysis in the context of the Summer School in Mixed Methods. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="https://github.com/benyimr/Intro_a_R">[Intro to R]</a>
+    <a href="https://github.com/benyimr/Intro_a_R" target="_blank" rel="noopener noreferrer">[Intro to R]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/benyimr/Stata_Basico">[Intro to Stata]</a>
+    <a href="https://github.com/benyimr/Stata_Basico" target="_blank" rel="noopener noreferrer">[Intro to Stata]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/benyimr/Redes_Sociales_R">[Social Networks]</a>
+    <a href="https://github.com/benyimr/Redes_Sociales_R" target="_blank" rel="noopener noreferrer">[Social Networks]</a>
   </div>
 
 </details>
