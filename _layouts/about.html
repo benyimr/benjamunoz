@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{%- comment -%}
+  Inline styles specific to the About page layout.
+  This keeps the two-column layout self-contained and
+  avoids any issues with SCSS compilation/order.
+{%- endcomment -%}
+<style>
+  .about-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+
+    /* Central width and centering */
+    max-width: 1000px;
+    margin: 2.5rem auto 3.5rem auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Left column: main introductory text */
+  .about-main__text {
+    flex: 1 1 58%;
+    min-width: 320px;
+    max-width: 640px; /* avoid very long lines */
+  }
+
+  .about-main__text p {
+    text-align: justify;
+  }
+
+  /* Right column: author profile (photo + links) */
+  .about-main__profile {
+    flex: 0 0 320px;
+    max-width: 320px;
+  }
+
+  /* Stack columns on smaller screens */
+  @media (max-width: 640px) {
+    .about-main {
+      flex-direction: column;
+    }
+
+    .about-main__text,
+    .about-main__profile {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+</style>
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  <div class="about-main">
+    <section class="about-main__text" itemprop="text">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        {% if page.title %}
+          <h1 class="page__title">
+            {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          </h1>
+        {% endif %}
+      {% endunless %}
+
+      {{ content }}
+    </section>
+
+    <aside class="about-main__profile">
+      {% include author-profile.html %}
+    </aside>
+  </div>
+</div>
