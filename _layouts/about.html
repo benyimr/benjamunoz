@@ -45,7 +45,7 @@ layout: default
     text-align: center !important;
   }
 
-  /* Profile photo: full-width and taller */
+  /* Profile photo: full-width and taller (desktop) */
   .about-main__profile .author__avatar img {
     width: 100% !important;
     max-width: 100% !important;
@@ -101,7 +101,7 @@ layout: default
   }
 
   /* ----------------------------------------------------
-     Responsive behavior
+     Responsive behavior (mobile)
   ---------------------------------------------------- */
   @media (max-width: 640px) {
     .about-main {
@@ -115,9 +115,34 @@ layout: default
       max-width: 100%;
     }
 
-    /* Allow wrapping on tiny screens */
+    /* Foto: sin float, centrada y con altura automática */
+    .about-main__profile .author__avatar {
+      float: none !important;
+      width: 100% !important;
+      margin: 0 auto 1rem auto;
+      text-align: center;
+    }
+
+    .about-main__profile .author__avatar img {
+      width: 100% !important;
+      max-width: 320px !important;  /* ajusta este número si quieres más/menos ancha en móvil */
+      height: auto !important;      /* evita la franja ultra delgada */
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Nombre y bio centrados bajo la foto también en móvil */
+    .about-main__profile .author__content,
+    .about-main__profile .author__name,
+    .about-main__profile .author__bio {
+      text-align: center !important;
+    }
+
+    /* Botones centrados y permitiendo varias filas en móvil */
     .about-main__profile .author__urls {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 </style>
