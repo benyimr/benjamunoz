@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "Welcome to my site!"
-author_profile: true
+author_profile: false
+sidebar: false
 classes: "about-page"
 redirect_from: 
   - /about/
