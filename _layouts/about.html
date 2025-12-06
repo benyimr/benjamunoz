@@ -11,7 +11,7 @@ layout: default
 <style>
   .about-main {
     display: flex;
-    flex-wrap: nowrap;      /* text + profile in one row */
+    flex-wrap: nowrap;      /* text + profile in one row on wide screens */
     gap: 2rem;
     align-items: flex-start;
 
@@ -21,7 +21,7 @@ layout: default
     padding: 0 1.5rem;
   }
 
-  /* Left column: text */
+  /* Left column: text (desktop) */
   .about-main__text {
     flex: 1 1 58%;
     min-width: 320px;
@@ -32,20 +32,20 @@ layout: default
     text-align: justify;
   }
 
-  /* Right column: profile (photo + links) — widened to 400px */
+  /* Right column: profile (photo + links) — widened to 400px (desktop) */
   .about-main__profile {
     flex: 0 0 400px;
     max-width: 400px;
   }
 
-  /* Center name and bio */
+  /* Center name and bio (base) */
   .about-main__profile .author__content,
   .about-main__profile .author__name,
   .about-main__profile .author__bio {
     text-align: center !important;
   }
 
-  /* Profile photo: full-width and taller (DESKTOP GRANDE) */
+  /* Profile photo: full-width and taller (desktop wide) */
   .about-main__profile .author__avatar img {
     width: 100% !important;
     max-width: 100% !important;
@@ -54,10 +54,10 @@ layout: default
   }
 
   /* ----------------------------------------------------
-     Social buttons under the photo
+     Social buttons under the photo (DESKTOP + TABLET)
   ---------------------------------------------------- */
 
-  /* Hide Follow button */
+  /* Hide Follow button always */
   .about-main__profile .author__urls-wrapper .btn {
     display: none;
   }
@@ -81,7 +81,7 @@ layout: default
     display: inline-flex;
     align-items: center;
 
-    /* ↓ tighter space between icon + text ↓ */
+    /* very tight space between icon + text */
     gap: -0.1rem;
 
     font-size: 0.85rem;
@@ -100,28 +100,17 @@ layout: default
     border-color: #b8c7d1;
   }
 
-  /* ----------------------------------------------------
-     RANGO INTERMEDIO: evitar la "línea vertical"
-     (entre ~desktop grande y móvil)
-  ---------------------------------------------------- */
-  @media (max-width: 1000px) and (min-width: 641px) {
-    .about-main__profile .author__avatar img {
-      /* mismo ancho, pero sin altura fija enorme */
-      width: 100% !important;
-      max-width: 100% !important;
-      height: auto !important;       /* se adapta */
-      max-height: 500px;             /* por si acaso, límite razonable */
-      object-fit: cover;
-    }
-  }
-
-  /* ----------------------------------------------------
-     Responsive behavior (MÓVIL)
-  ---------------------------------------------------- */
-  @media (max-width: 640px) {
+  /* ====================================================
+     BREAKPOINT 1: width ≤ 1000px
+     → Tablet / intermediate: stacked layout,
+       rectangular photo centered, buttons visibles
+  ==================================================== */
+  @media (max-width: 1000px) {
     .about-main {
-      flex-direction: column;
+      flex-direction: column;   /* stack text + profile */
       flex-wrap: nowrap;
+      max-width: 100%;
+      padding: 0 1rem;
     }
 
     .about-main__text,
@@ -130,7 +119,11 @@ layout: default
       max-width: 100%;
     }
 
-    /* Foto circular en móvil (según lo que ya tienes funcionando) */
+    .about-main__profile {
+      margin-top: 1.5rem;
+    }
+
+    /* Avatar container centered, no floats */
     .about-main__profile .author__avatar {
       float: none !important;
       width: 100% !important;
@@ -138,27 +131,62 @@ layout: default
       text-align: center;
     }
 
+    /* Rectangular photo, centered, reasonable size */
     .about-main__profile .author__avatar img {
-      width: 55vw !important;
-      height: 55vw !important;
-      max-width: 260px !important;
-      max-height: 260px !important;
-      border-radius: 50% !important;
+      width: 100% !important;
+      max-width: 320px !important;
+      height: auto !important;
+      border-radius: 10px !important;  /* rounded corners, not circle */
       object-fit: cover;
       display: block;
       margin: 0 auto;
     }
 
-    /* Nombre y bio centrados bajo la foto también en móvil */
+    /* Name and bio centered under the photo */
     .about-main__profile .author__content,
     .about-main__profile .author__name,
     .about-main__profile .author__bio {
       text-align: center !important;
     }
 
-    /* Ocultar botones en móvil para evitar solapamiento */
+    /* Buttons can wrap to 2 lines if needed */
+    .about-main__profile .author__urls {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  /* ====================================================
+     BREAKPOINT 2: width ≤ 640px (mobile)
+     → Circular photo, name below, no buttons
+  ==================================================== */
+  @media (max-width: 640px) {
+    /* Circular photo, centered */
+    .about-main__profile .author__avatar img {
+      width: 220px !important;
+      height: 220px !important;
+      max-width: 220px !important;
+      border-radius: 50% !important;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Ensure the content (name + bio) is below the photo and centered */
+    .about-main__profile .author__content {
+      display: block;
+      margin-top: 0.75rem;
+      text-align: center !important;
+    }
+
+    .about-main__profile .author__name,
+    .about-main__profile .author__bio {
+      text-align: center !important;
+    }
+
+    /* Hide buttons entirely on mobile */
     .about-main__profile .author__urls-wrapper {
-      display: none;
+      display: none !important;
     }
   }
 </style>
@@ -192,4 +220,3 @@ layout: default
     </aside>
   </div>
 </div>
-
