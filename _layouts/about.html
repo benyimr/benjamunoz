@@ -45,7 +45,7 @@ layout: default
     text-align: center !important;
   }
 
-  /* Profile photo: full-width and taller (desktop) */
+  /* Profile photo: full-width and taller (DESKTOP GRANDE) */
   .about-main__profile .author__avatar img {
     width: 100% !important;
     max-width: 100% !important;
@@ -54,7 +54,7 @@ layout: default
   }
 
   /* ----------------------------------------------------
-     Social buttons under the photo (desktop)
+     Social buttons under the photo
   ---------------------------------------------------- */
 
   /* Hide Follow button */
@@ -81,7 +81,7 @@ layout: default
     display: inline-flex;
     align-items: center;
 
-    /* tighter space between icon + text */
+    /* ↓ tighter space between icon + text ↓ */
     gap: -0.1rem;
 
     font-size: 0.85rem;
@@ -101,7 +101,22 @@ layout: default
   }
 
   /* ----------------------------------------------------
-     Responsive behavior (mobile)
+     RANGO INTERMEDIO: evitar la "línea vertical"
+     (entre ~desktop grande y móvil)
+  ---------------------------------------------------- */
+  @media (max-width: 1000px) and (min-width: 641px) {
+    .about-main__profile .author__avatar img {
+      /* mismo ancho, pero sin altura fija enorme */
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;       /* se adapta */
+      max-height: 500px;             /* por si acaso, límite razonable */
+      object-fit: cover;
+    }
+  }
+
+  /* ----------------------------------------------------
+     Responsive behavior (MÓVIL)
   ---------------------------------------------------- */
   @media (max-width: 640px) {
     .about-main {
@@ -115,14 +130,7 @@ layout: default
       max-width: 100%;
     }
 
-    /* Hacer que el bloque de perfil sea columna: foto → nombre → bio */
-    .about-main__profile > div[itemscope] {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    /* Foto: centrada y en formato circular */
+    /* Foto circular en móvil (según lo que ya tienes funcionando) */
     .about-main__profile .author__avatar {
       float: none !important;
       width: 100% !important;
@@ -131,7 +139,6 @@ layout: default
     }
 
     .about-main__profile .author__avatar img {
-      /* círculo responsivo */
       width: 55vw !important;
       height: 55vw !important;
       max-width: 260px !important;
@@ -142,13 +149,8 @@ layout: default
       margin: 0 auto;
     }
 
-    /* Nombre y bio claramente debajo de la foto en móvil */
-    .about-main__profile .author__content {
-      margin-top: 0.75rem;
-      text-align: center !important;
-      width: 100%;
-    }
-
+    /* Nombre y bio centrados bajo la foto también en móvil */
+    .about-main__profile .author__content,
     .about-main__profile .author__name,
     .about-main__profile .author__bio {
       text-align: center !important;
