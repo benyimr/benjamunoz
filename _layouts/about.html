@@ -115,6 +115,13 @@ layout: default
       max-width: 100%;
     }
 
+    /* Hacer que el bloque de perfil sea columna: foto → nombre → bio */
+    .about-main__profile > div[itemscope] {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     /* Foto: centrada y en formato circular */
     .about-main__profile .author__avatar {
       float: none !important;
@@ -135,8 +142,13 @@ layout: default
       margin: 0 auto;
     }
 
-    /* Nombre y bio centrados bajo la foto también en móvil */
-    .about-main__profile .author__content,
+    /* Nombre y bio claramente debajo de la foto en móvil */
+    .about-main__profile .author__content {
+      margin-top: 0.75rem;
+      text-align: center !important;
+      width: 100%;
+    }
+
     .about-main__profile .author__name,
     .about-main__profile .author__bio {
       text-align: center !important;
